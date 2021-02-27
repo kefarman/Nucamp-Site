@@ -28,7 +28,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-lg-2 mt-4">
-                    <a class="btn btn-large btn-info" href="#reserveForm">Reserve Campsite</a>
+                    <a href="#reserveForm" role="button" class="btn btn-info btn-lg">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     <div class="card-body">
                         <form id="reserveForm">
                             <div class="row form-group">
-                                <label class="col-form-label col-sm-6">Number of Campers</label>
+                                <label for="numCampers" class="col-form-label col-sm-6">Number of Campers</label>
                                 <div class="col">
                                     <select class="form-control" name="numCampers" id="numCampers">
                                         <option>Select</option>
@@ -117,9 +117,9 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <label class="col-form-label col-sm-6" for="date">Date</label>
+                                <label for="date" class="col-form-label col-sm-6">Date</label>
                                 <div class="col-sm-6">
-                                    <input class="form-control" type="date" id="date" name="date" placeholder="date">
+                                    <input class="form-control" type="date" id="date" name="date" placeholder="Date">
                                 </div>
                             </div>
                                 <div class="row form-group">
